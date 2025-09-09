@@ -5,9 +5,9 @@ The goal is to identify variants that create novel start codons in 5'UTRs, extra
 The pipeline works with hg38 (GRCh38)
 
 The pipeline dynamically loads:
-- The matching transcript annotation file ('GRCh38.fa')
-- The correct reference genome ('reference_MANE_hg38.txt')
-- The appropriate VCF input ('vcf_38.vcf.gz')
+- The matching transcript annotation file (`GRCh38.fa`)
+- The correct reference genome (`reference_MANE_hg38.txt`)
+- The appropriate VCF input (`vcf_38.vcf.gz`)
 
 # Requirements
 
@@ -15,7 +15,7 @@ The pipeline dynamically loads:
 - [pandas](https://pandas.pydata.org/)  
 - [pysam](https://pysam.readthedocs.io/)
 
-The pipeline can be ran using the commands: 'python UTRpipeline.py \
+The pipeline can be ran using the commands: `python UTRpipeline.py \
     --vcf path/to/vcf_38.vcf.gz \
     --transcript path/to/reference_MANE_hg38.txt \
-    --ref path/to/GRCh38.fa'
+    --ref path/to/GRCh38.fa` 
